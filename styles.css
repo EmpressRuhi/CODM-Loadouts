@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Young Serif', serif;
+    background: #f8f9fa;
+    color: #2d2d2d;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D94A7F;
+    margin-bottom: 10px;
+}
+
+
+
+main {
+    flex: 1;
+}
+
+.loadouts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.loadout-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgba(217, 74, 127, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Removed 3D effects */
+
+.loadout-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(217, 74, 127, 0.3);
+    border-color: #D94A7F;
+}
+
+.weapon-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(217, 74, 127, 0.1);
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 2px solid rgba(217, 74, 127, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.weapon-name:hover {
+    background: rgba(217, 74, 127, 0.2);
+    transform: scale(1.02);
+    border-color: #D94A7F;
+    box-shadow: 0 4px 12px rgba(217, 74, 127, 0.2);
+    color: #D94A7F;
+}
+
+.weapon-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    background: linear-gradient(135deg, #D94A7F 0%, #F06292 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    border: 3px solid rgba(217, 74, 127, 0.2);
+}
+
+.weapon-image:hover {
+    transform: scale(1.03);
+}
+
+.attachments-section {
+    margin-top: 20px;
+}
+
+.attachments-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(217, 74, 127, 0.1);
+    padding: 8px 15px;
+    border-radius: 8px;
+    border-left: 4px solid #D94A7F;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.attachments-title::before {
+    content: '⚙️';
+    font-size: 1rem;
+}
+
+.attachments-title:hover {
+    background: rgba(217, 74, 127, 0.2);
+    transform: scale(1.02);
+    border-color: #D94A7F;
+    box-shadow: 0 4px 12px rgba(217, 74, 127, 0.2);
+}
+
+.attachments-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.attachment-item {
+    background: rgba(217, 74, 127, 0.1);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 2px solid rgba(217, 74, 127, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+/* Removed 3D effects */
+
+.attachment-item:hover {
+    background: rgba(217, 74, 127, 0.2);
+    transform: scale(1.05);
+    border-color: #D94A7F;
+    box-shadow: 0 4px 12px rgba(217, 74, 127, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.credit {
+    color: #D94A7F;
+    font-weight: 600;
+}
+
+.loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+    
+    .loadouts-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .loadout-card {
+        padding: 20px;
+    }
+    
+    .weapon-name {
+        font-size: 1.5rem;
+    }
+}

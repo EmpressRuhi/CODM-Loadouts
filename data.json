@@ -1,0 +1,28 @@
+{
+    "loadouts": [
+        {
+            "id": "1",
+            "name": "DLQ",
+            "image": "dlq.png",
+            "attachments": [
+                "OWC Laser - Tactical",
+                "MIP Light",
+                "Fast Switch",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "AK117",
+            "image": "ak117.jpg",
+            "attachments": [
+                "OWC Laser - Tactical",
+                "MIP Extended Light Barrel",
+                "Monolithic Suppressor",
+                "No Stock",
+                "48 Round Extended Mag"
+            ]
+        }
+    ]
+}
