@@ -14,14 +14,83 @@
 </head>
 
 <body>
+    <nav class="glassmorphic-nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <h1 class="nav-title">CODM Loadouts</h1>
+            </div>
+            <div class="nav-center">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search loadouts..." />
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-controls">
+                    <div class="filter-dropdown">
+                        <select id="category-filter">
+                            <option value="all">All Categories</option>
+                            <option value="Assault Rifle">Assault Rifle</option>
+                            <option value="Sniper Rifle">Sniper Rifle</option>
+                            <option value="SMG">SMG</option>
+                        </select>
+                    </div>
+                    <div class="meta-filter">
+                        <div class="meta-toggle" id="meta-only">
+                            <span class="meta-label">Meta</span>
+                        </div>
+                    </div>
+                    <div class="theme-toggle">
+                        <button id="theme-toggle" class="theme-btn">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-nav-menu">
+            <div class="mobile-search">
+                <div class="search-bar">
+                    <input type="text" id="mobile-search-input" placeholder="Search loadouts..." />
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+            <div class="mobile-controls">
+                <div class="filter-dropdown">
+                    <select id="mobile-category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="Assault Rifle">Assault Rifle</option>
+                        <option value="Sniper Rifle">Sniper Rifle</option>
+                        <option value="SMG">SMG</option>
+                    </select>
+                </div>
+                <div class="meta-filter">
+                    <div class="meta-toggle" id="mobile-meta-only">
+                        <span class="meta-label">Meta</span>
+                    </div>
+                </div>
+                <div class="theme-toggle">
+                    <button id="mobile-theme-toggle" class="theme-btn">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <header>
-            <h1 class="main-title">CODM Loadouts</h1>
-        </header>
 
         <main>
             <div id="loadouts-container" class="loadouts-grid">
                 <!-- Loadout cards will be dynamically generated here -->
+            </div>
+            <div id="no-results" class="no-results" style="display: none;">
+                <p>No loadouts found matching your criteria</p>
             </div>
         </main>
 

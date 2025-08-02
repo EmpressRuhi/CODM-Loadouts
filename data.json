@@ -1,28 +1,205 @@
 {
     "loadouts": [
+       
         {
             "id": "1",
-            "name": "DLQ",
-            "image": "dlq.png",
+            "name": "VMP",
+            "image": "Images/VMP.webp",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
             "attachments": [
-                "OWC Laser - Tactical",
-                "MIP Light",
-                "Fast Switch",
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
                 "OWC Light Suppressor",
                 "YKM Combat Stock"
-            ]
+            ],
+            "meta": true
         },
         {
             "id": "2",
-            "name": "AK117",
-            "image": "ak117.jpg",
+            "name": "USS-9",
+            "image": "Images/USS-9.webp",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
             "attachments": [
-                "OWC Laser - Tactical",
-                "MIP Extended Light Barrel",
-                "Monolithic Suppressor",
-                "No Stock",
-                "48 Round Extended Mag"
-            ]
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
+        },
+        {
+            "id": "3",
+            "name": "BP 50",
+            "image": "Images/bp50.png",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "Assault Rifle",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": false
+        },
+        {
+            "id": "4",
+            "name": "DLQ",
+            "image": "Images/dlq.png",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": false
+        },
+        {
+            "id": "5",
+            "name": "AK117",
+            "image": "Images/ak117.jpg",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
+        },
+        {
+            "id": "6",
+            "name": "CX-9",
+            "image": "Images/",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
+        },
+        {
+            "id": "1",
+            "name": "VMP",
+            "image": "Images/VMP.webp",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
+        },
+        {
+            "id": "1",
+            "name": "VMP",
+            "image": "Images/VMP.webp",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
+        },
+        {
+            "id": "1",
+            "name": "VMP",
+            "image": "Images/VMP.webp",
+            "weapon-id": "WEAPON_DLQ_001",
+            "category": "SMG",
+            "description": "A toxic VMP loadout to be used on hipfire with gung-ho perk.",
+            "mode": "Multiplayer",
+            "damage": 95,
+            "range": 90,
+            "mobility": 45,
+            "accuracy": 85,
+            "fireRate": 35,
+            "attachments": [
+                "Heavy Barrel",
+                "Rapid Fire",
+                "Fast Extended Mag",
+                "OWC Light Suppressor",
+                "YKM Combat Stock"
+            ],
+            "meta": true
         }
+        
+        
     ]
 }
